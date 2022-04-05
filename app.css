@@ -150,10 +150,6 @@ ul li {
     font-size: 14px;
 }
 
-.cart__item:hover a {
-    color: inherit;
-}
-
 .cart__item:before {
     margin-right: 11px;
     display: inline-block;
@@ -406,6 +402,9 @@ ul li {
         height: 20px;
         display: block;
         margin: 0 auto 5px;
+    }
+    .cart__item:hover a {
+        color: inherit;
     }
     .header__bottom {
         justify-content: center;
